@@ -1,5 +1,5 @@
 # mTrade
-This is a simple market trade processor which consumes trade messages via the endpoint, stores the messages in the database, and displays a Pie Chart showing the distribution of traded currencies. Given the data that is recieved, any number of charts and data analysis is possible.
+This is a simple market trade processor which consumes trade messages via the endpoint, stores the messages in the database, and displays a Pie Chart showing the distribution of traded currencies. Given the data that is received, any number of charts and data analysis is possible.
 
 
 SETUP:
