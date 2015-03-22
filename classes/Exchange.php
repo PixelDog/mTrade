@@ -23,9 +23,10 @@ class Exchange {
 			return;
 		}
 		$obj = json_decode($exchangeData);
-		if(!$obj){
-			return;
-		}
+		
+		if(json_last_error() != JSON_ERROR_NONE){
+ 			return;
+ 		}
 		
 		// existing user check would be good
 		/*
