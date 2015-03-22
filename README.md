@@ -1,7 +1,11 @@
 # mTrade
 
 SETUP:
-1) clone repo
-2) run composer install
-3) set up DB (see sql/sample.sql for trades table)
-4) edit DB config in config/config.ini with your DB name, User and Password
+
+1) Clone the repository.
+
+2) Run composer install.
+
+3) Set up DB with trades table (see sql/sample.sql for trades table).
+
+4) Edit the DB configuration in config/config.ini with your DB name, User and Password.
