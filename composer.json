@@ -1,0 +1,16 @@
+{
+    "name": "keith/currency",
+    "description": "Market Trade Processor",
+    "require": {
+        "php": ">=5.3.2",
+        "bcosca/fatfree": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keith Otto",
+            "email": "keith@rambleinteractive.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
