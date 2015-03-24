@@ -1,8 +1,12 @@
 # mTrade
-This is a simple market trade processor which consumes trade messages via the endpoint, stores the messages in the database, and displays a Pie Chart showing the distribution of traded currencies. Given the data that is received, any number of charts and data analysis is possible.
+This is a simple market trade processor built with Fat-Free PHP micro-framework and using Highcharts on the front end. It consumes trade messages via the endpoint, stores the messages in the database, and displays a Pie Chart showing the distribution of traded currencies. Given the data that is received, any number of charts and data analysis is possible.
 
 
 SETUP:
+
+You will need Composer to install the dependencies: 
+
+https://getcomposer.org/doc/00-intro.md
 
 1) Clone the repository.
 
