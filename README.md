@@ -18,7 +18,7 @@ https://getcomposer.org/doc/00-intro.md
 
 Your endpoint for POSTed messages will be:
 
-your-site-url/currency/Exchange
+your-site-url/your-mTrade-directory/Exchange
 
 Messages should be posted in the following example JSON format:
 
@@ -26,5 +26,5 @@ Messages should be posted in the following example JSON format:
 
 To view the data, you will visit:
 
-your-site-url/currency/
+your-site-url/your-mTrade-directory/
 
