@@ -17,6 +17,7 @@ https://getcomposer.org/doc/00-intro.md
 4) Edit the DB configuration in config/config.ini with your DB name, User and Password.
 
 WHAT ABOUT THE DATA?
+
 You can POST some data to the following endpoint:
 
 your-site-url/your-mTrade-directory/Exchange
