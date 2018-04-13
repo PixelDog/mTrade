@@ -28,7 +28,7 @@ Messages should be posted with fields/values represented in the following exampl
 
 OR
 
-You can some data with f3 using the mock method, example:
+You can create some data with f3 using the mock method, example:
 
 // send some mock data
 
