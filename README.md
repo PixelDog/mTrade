@@ -16,15 +16,25 @@ https://getcomposer.org/doc/00-intro.md
 
 4) Edit the DB configuration in config/config.ini with your DB name, User and Password.
 
-Your endpoint for POSTed messages will be:
+WHAT ABOUT THE DATA?
+You can POST some data to the following endpoint:
 
 your-site-url/your-mTrade-directory/Exchange
 
-Messages should be posted in the following example JSON format:
+Messages should be posted with fields/values represented in the following example JSON format:
 
 {"userId": "134256", "currencyFrom": "EUR", "currencyTo": "GBP", "amountSell": 1000, "amountBuy": 747.10, "rate": 0.7471, "timePlaced" : "24-10-15 10:27:44", "originatingCountry" : "FR"}
 
-To view the data, you will visit:
+You can some data with f3 using the mock method, example:
+// send some mock data
+$this->f3->mock('POST /Exchange',array('{"userId": "134256", "currencyFrom": "EUR", "currencyTo": "GBP", "amountSell": 1000, "amountBuy": 747.10, "rate": 0.7471, "timePlaced" : "24-10-15 10:27:44", "originatingCountry" : "FR"}'));
+
+OR 
+
+create some rows with PHP myAdmin or SQL Pro :-)
+
+VIEW:
+To view the data and visualization, you will visit:
 
 your-site-url/your-mTrade-directory/
 
