@@ -29,7 +29,9 @@ Messages should be posted with fields/values represented in the following exampl
 OR
 
 You can some data with f3 using the mock method, example:
+
 // send some mock data
+
 $this->f3->mock('POST /Exchange',array('{"userId": "134256", "currencyFrom": "EUR", "currencyTo": "GBP", "amountSell": 1000, "amountBuy": 747.10, "rate": 0.7471, "timePlaced" : "24-10-15 10:27:44", "originatingCountry" : "FR"}'));
 
 OR 
